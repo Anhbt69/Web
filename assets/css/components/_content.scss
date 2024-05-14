@@ -1,0 +1,34 @@
+.section-content {
+  margin-bottom: 60px;
+  .content-inner {
+    line-height: 30px;
+    img {
+      margin-bottom: 16px;
+    }
+    .text-content {
+      h4 {
+        color: $color-title-h2;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+      p {
+        color: $color-title-p;
+        font-size: 14px;
+      }
+    }
+    @media (max-width: 575px) {
+      margin-top: 30px !important;
+      text-align: center !important;
+    }
+  }
+  .img-content {
+    padding: 30px;
+    .img-inner img {
+      max-width: 100%;
+      padding: 15px;
+      border: 1px solid #ebebeb;
+      border-radius: 99%;
+    }
+  }
+
+}
